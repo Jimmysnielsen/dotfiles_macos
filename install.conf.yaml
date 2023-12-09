@@ -5,15 +5,24 @@
 - clean: ['~']
 
 - link:
+# create sym-links
+# - <path-to-target>: <source>
+# if no <source> is given assume source is same name without the dot like <.filename>: <filename>
+# - <path-to-target>: 
 #    ~/.tmux.conf: tmux.conf
     ~/.zshrc: zshrc
     ~/.gitconfig: gitconfig
 
 - create:
+# creates new directories if they dont exist already
+# - <path-to-new-directory>
     - ~/downloads
     - ~/work
 
 - shell:
+# execute shell commands
+# - <command> or
+# - [<command> , <human readable text>]
   - [git submodule update --init --recursive, Installing submodules]
 
 
