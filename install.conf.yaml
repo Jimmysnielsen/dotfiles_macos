@@ -7,11 +7,13 @@
 - link:
 #    ~/.tmux.conf: tmux.conf
     ~/.zshrc: zshrc
+    ~/.gitconfig: gitconfig
 
 - create:
     - ~/downloads
     - ~/work
 
-#  - shell:
-#   - [git submodule update --init --recursive, Installing submodules]
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
+
 
