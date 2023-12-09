@@ -21,8 +21,24 @@
 
 - shell:
 # execute shell commands
-# - <command> or
+# format option 1
 # - [<command> , <human readable text>]
+#
+# format option 2 (fine-grained control)
+# -
+#   command: <your shell command here>
+#   stdin: true # optional
+#   stdout: true # optional
+#   description: "human readable text" # optional
+#   quiet: true # optional
+#
+# this is format option 1
   - [git submodule update --init --recursive, Installing submodules]
-
+#
+# this if example format option 2
+  - 
+   command: echo "Hello from install/conf.yaml" 
+   stdout: true
+   stderr: true
+   quiet: true
 
