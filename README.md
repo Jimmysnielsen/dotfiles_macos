@@ -14,5 +14,5 @@ Done Git (config)
 - move SSH to dropbox (or other place?)
 - course assignment #1 about git
 done check errors in homebrew: setup_homebrew.zsh
-- clean-up setup_homebrew
-
+done clean-up setup_homebrew
+- homebrew 
