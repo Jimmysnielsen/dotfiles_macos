@@ -41,4 +41,9 @@
    stdout: true
    stderr: true
    quiet: true
-
+#
+# install homebrew
+  - command: ./setup_homebrew.zsh
+    stdin: true
+    stdout: true
+    stderr: true

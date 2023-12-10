@@ -1,6 +1,6 @@
-#!/usr/bin/env zsh
-# #!/usr/bin/env bash
-# 2023-12-09 JSN
+# #!/usr/bin/env zsh
+#!/usr/bin/env bash
+# 2023-12-09 JSN 
 
 set -e
 

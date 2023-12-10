@@ -10,5 +10,9 @@ I'm learning about dotfiles at [dotfiles.eieio.xyz](https://dotfiles.eieio.xyz).
 - Finder show path bar
 - Trackpad (three finger drag and tap to click)
 Done .zshrc
-- Git (config and SSH)
+Done Git (config)
+- move SSH to dropbox (or other place?)
+- course assignment #1 about git
+done check errors in homebrew: setup_homebrew.zsh
+- clean-up setup_homebrew
 
