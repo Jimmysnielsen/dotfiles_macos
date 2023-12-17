@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/usr/bin/env zsh
 
 echo "\n<<< Starting Homebrew Setup >>>\n"
 
@@ -23,7 +23,9 @@ fi
 # which makes them available to Homebrew for the
 # first install (before our `zshrc` is sourced).
 
-# brew bundle --verbose
+# download files and apps defined by Brewfile 
+# see zshrc
+brew bundle --verbose 
 
 # Should we wrap this in a conditional?
 # echo "Enter superuser (sudo) password to accept Xcode license"
@@ -39,6 +41,6 @@ fi
 # compaudit | xargs chmod go-w
 # But this is from the Homebrew site, though `-R` was needed:
 # https://docs.brew.sh/Shell-Completion#configuring-completions-in-zsh
-# chmod -R go-w "$(brew --prefix)/share"
+chmod -R go-w "$(brew --prefix)/share"
 
 

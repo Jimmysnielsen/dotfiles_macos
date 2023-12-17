@@ -3,6 +3,16 @@ echo 'Hello from .zshrc'
 
 # Set variables
 
+export NULLCMD=bat
+
+# Brewfile
+export NULLCMD=bat
+export DOTFILES="$HOME/.dotfiles"
+export HOMEBREW_BUNDLE_FILE="$DOTFILES/Brewfile"
+
+
+# syntax highlighting for man pages ao.
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
 # Change ZSH options
 

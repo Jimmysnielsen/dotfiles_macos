@@ -11,6 +11,7 @@
 # - <path-to-target>: 
 #    ~/.tmux.conf: tmux.conf
     ~/.zshrc: zshrc
+    ~/.zshenv: zshenv
     ~/.gitconfig: gitconfig
 
 - create:
