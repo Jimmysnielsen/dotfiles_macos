@@ -10,7 +10,7 @@ export NULLCMD=bat
 export DOTFILES="$HOME/.dotfiles"
 export HOMEBREW_BUNDLE_FILE="$DOTFILES/Brewfile"
 
-
+# this ought to be replaced by batman below
 # syntax highlighting for man pages ao.
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
@@ -18,7 +18,11 @@ export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
 
 # Create aliases
-alias ls='ls -lAFGh'
+# alias ls='ls -lAFGh' # replaced by the following:
+alias ls='exa -laFh --git'
+alias exa='exa -laFh --git'
+alias man='batman'
+alias cat='bat'
 
 # Customize prompt(s)
 PROMPT='
