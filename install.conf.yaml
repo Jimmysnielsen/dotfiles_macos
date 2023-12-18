@@ -13,6 +13,9 @@
     ~/.zshrc: zshrc
     ~/.zshenv: zshenv
     ~/.gitconfig: gitconfig
+    ~/.config/bat:
+       create: true
+       path: config/bat
 
 - create:
 # creates new directories if they dont exist already
