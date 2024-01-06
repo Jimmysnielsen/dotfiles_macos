@@ -24,7 +24,7 @@ alias exa='exa -laFh --git'
 alias man='batman'
 alias cat='bat'
 alias bbd='brew bundle dump --force --describe' 
-alias trail='<<<${(F)path}'
+alias trail='bat <<<${(F)path}'
 
 # Customize prompt(s)
 PROMPT='
@@ -37,6 +37,10 @@ RPROMPT='%*'
 # Handy functions
 function mkcd() {
   mkdir -p "$@" && cd "$_";
+}
+
+function code() {
+  echo "Can't open ($@) because this function supercedes the original code command."
 }
 
 # Use ZSH plugins
