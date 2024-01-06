@@ -12,7 +12,7 @@ export HOMEBREW_BUNDLE_FILE="$DOTFILES/Brewfile"
 
 # this ought to be replaced by batman below
 # syntax highlighting for man pages ao.
-export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+# export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
 # Change ZSH options
 
