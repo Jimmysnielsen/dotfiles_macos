@@ -39,10 +39,6 @@ function mkcd() {
   mkdir -p "$@" && cd "$_";
 }
 
-function code() {
-  echo "Can't open ($@) because this function supercedes the original code command."
-}
-
 # Use ZSH plugins
 
 
