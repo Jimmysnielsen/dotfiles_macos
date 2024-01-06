@@ -25,6 +25,8 @@ brew "nano"
 brew "ripgrep"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# UNIX shell (command interpreter)
+brew "zsh"
 # Application launcher and productivity software
 cask "alfred"
 # Edit and manage bibliographies
