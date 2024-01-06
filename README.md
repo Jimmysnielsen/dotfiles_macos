@@ -17,9 +17,12 @@ done check errors in homebrew: setup_homebrew.zsh
 done clean-up setup_homebrew
 - homebrew 
 done  add bat (replacement for cat)
-- add httpi (?)
+done add httpie
 - grok man curl
 - grok Alfred and decide if worhty of including
+- setup color output for tree command
+
+- consider changing symlink sh->bash to sh->zsh # /private/var/select/sh
 
 zsh variables
 done syntax highlighting for man pages.

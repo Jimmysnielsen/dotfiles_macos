@@ -1,3 +1,5 @@
+echo "Hello form .zshenv"
+
 export HOMEBREW_CASK_OPTS="--no-quarantine --no-binaries"
 export N_PREFIX="$HOME/.n"
 export PREFIX="$N_PREFIX"

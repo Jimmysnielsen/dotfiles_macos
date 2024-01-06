@@ -2,7 +2,8 @@
 
 echo "\n<<< Starting Homebrew Setup >>>\n"
 
-if test -x /usr/local/bin/brew
+# if test -x /usr/local/bin/brew
+  if exists /usr/local/bin/brew
   then
     echo "brew exists, skipping install" ; 
   else

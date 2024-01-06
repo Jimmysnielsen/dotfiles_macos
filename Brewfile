@@ -1,4 +1,7 @@
 tap "homebrew/bundle"
+
+brew "tree"
+
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Bash scripts that integrate bat with various command-line tools
