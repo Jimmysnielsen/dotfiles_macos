@@ -1,4 +1,0 @@
-#!/usr/bin/env zsh
-echo ">>> Update Brewfile <<<" 
-brew bundle --force --describe
-

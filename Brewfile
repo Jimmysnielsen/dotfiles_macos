@@ -1,7 +1,4 @@
 tap "homebrew/bundle"
-
-brew "tree"
-
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Bash scripts that integrate bat with various command-line tools
@@ -22,13 +19,16 @@ brew "leiningen"
 brew "less"
 # Mac App Store command-line interface
 brew "mas"
-
+# Free (GNU) replacement for the Pico text editor
 brew "nano"
-
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
 # Application launcher and productivity software
 cask "alfred"
+# Edit and manage bibliographies
+cask "bibdesk"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
 # Web browser
@@ -39,3 +39,8 @@ cask "gitkraken"
 cask "iterm2"
 # Password manager
 cask "lastpass"
+# VPN client focusing on security
+cask "protonvpn"
+# Configurable document editor that supports Markdown
+cask "typora"
+mas "HP Smart", id: 1474276998
