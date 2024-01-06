@@ -22,6 +22,9 @@ brew "leiningen"
 brew "less"
 # Mac App Store command-line interface
 brew "mas"
+
+brew "nano"
+
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Application launcher and productivity software
