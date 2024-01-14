@@ -4,9 +4,9 @@ echo 'Hello from .zshrc'
 # Set variables
 
 export NULLCMD=bat
-#add n to $PATH
-export PATH="$PATH:/Users/neo/.n/bin"
-
+#add n 
+export N_PREFIX="$HOME/.n"
+export PREFIX="$N_PREFIX"
 
 # Brewfile
 export NULLCMD=bat
@@ -34,8 +34,9 @@ PROMPT='
 %1~ %L %# ' 
 
 RPROMPT='%*'
-# Add locations to $PATH variable
 
+# Add locations to $PATH variable
+export PATH="$PATH:$N_PREFIX/bin"
 
 # Handy functions
 function mkcd() {
