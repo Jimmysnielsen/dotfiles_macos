@@ -4,6 +4,9 @@ echo 'Hello from .zshrc'
 # Set variables
 
 export NULLCMD=bat
+#add n to $PATH
+export PATH="$PATH:/Users/neo/.n/bin"
+
 
 # Brewfile
 export NULLCMD=bat
