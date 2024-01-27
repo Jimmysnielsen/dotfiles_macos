@@ -28,6 +28,7 @@ alias man='batman'
 alias cat='bat'
 alias bbd='brew bundle dump --force --describe' 
 alias trail='bat <<<${(F)path}'
+alias rm='trash'
 
 # Customize prompt(s)
 PROMPT='
