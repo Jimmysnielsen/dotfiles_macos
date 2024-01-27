@@ -48,3 +48,4 @@ cask "protonvpn"
 # Configurable document editor that supports Markdown
 cask "typora"
 mas "HP Smart", id: 1474276998
+mas "Kindle", id: 302584613
