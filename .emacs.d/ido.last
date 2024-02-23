@@ -1,0 +1,31 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/neo/Documents/" . "clojure-noob/")
+ ("/Users/neo/" . "Documents/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/neo/Documents/clojure-noob/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "project.clj"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/neo/Documents/clojure-noob/" (26071 20434 264096 364000) "src/" "doc/" ".gitignore" ".lein-repl-history" "README.md" ".nrepl-port" "resources/" ".hgignore" "target/" "CHANGELOG.md" "test/" "LICENSE" "project.clj" "../" "./")
+
+ ("/Users/neo/Documents/" (26071 20257 0 0) "clojure-noob/" "#project1.org#" "project1.html" "project1.tex" ".localized" ".DS_Store" "Documents - Jimmy’s MacBook Pro/" "project1.org" "journal/" "../" "./")
+
+ ("/Users/neo/" (26071 21915 383477 13000) ".zsh_sessions/" ".bash_history" ".gitconfig" ".python_history" "Downloads/" ".gk/" ".bash_profile" ".m2/" ".ionic/" "Documents/" ".npm/" ".Trash/" ".emacs.d.broken/" "Dropbox/" "Movies/" ".ssh/" "work/" ".zshenv" ".dropbox/" "Public/" ".deft/" ".lein/" ".bash_sessions/" ".cups/" ".node_repl_history" ".emacs.d/" ".dotfiles/" ".oracle_jre_usage/" ".lesshst" "Library/" "Desktop/" ".zsh_history" "todo.org" "Pictures/" "old.emacs.d/" ".zshrc" ".CFUserTextEncoding" ".n/" ".DS_Store" "emacs-for-clojure-book1/" ".clojure/" ".gitkraken/" "Music/" ".config/" "../" "./")
+
+ ("/Users/neo/.emacs.d/" (26071 21928 3616 921000) "themes/" "elpa/" ".gitignore" "README.md" "init.el" "projectile-bookmarks.eld" "customizations/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
