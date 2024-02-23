@@ -19,6 +19,8 @@ brew "leiningen"
 brew "less"
 # Mac App Store command-line interface
 brew "mas"
+# Node version management
+brew "n"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
 # Search tool like grep and The Silver Searcher
@@ -46,3 +48,4 @@ cask "protonvpn"
 # Configurable document editor that supports Markdown
 cask "typora"
 mas "HP Smart", id: 1474276998
+mas "Kindle", id: 302584613

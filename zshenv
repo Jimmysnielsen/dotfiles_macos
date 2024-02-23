@@ -1,4 +1,4 @@
-echo "Hello form .zshenv"
+echo "Hello from .zshenv"
 
 export HOMEBREW_CASK_OPTS="--no-quarantine --no-binaries"
 export N_PREFIX="$HOME/.n"

@@ -4,6 +4,9 @@ echo 'Hello from .zshrc'
 # Set variables
 
 export NULLCMD=bat
+#add n 
+export N_PREFIX="$HOME/.n"
+export PREFIX="$N_PREFIX"
 
 # Brewfile
 export NULLCMD=bat
@@ -25,14 +28,16 @@ alias man='batman'
 alias cat='bat'
 alias bbd='brew bundle dump --force --describe' 
 alias trail='bat <<<${(F)path}'
+alias rm='trash'
 
 # Customize prompt(s)
 PROMPT='
 %1~ %L %# ' 
 
 RPROMPT='%*'
-# Add locations to $PATH variable
 
+# Add locations to $PATH variable
+export PATH="$PATH:$N_PREFIX/bin"
 
 # Handy functions
 function mkcd() {
